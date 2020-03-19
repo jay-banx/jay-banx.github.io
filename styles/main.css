@@ -102,10 +102,12 @@ a {
 
 .projects .project {
     width: 30%;
-    height: 250px;
-    background-color: #ff5733;
+    height: 220px;
+    /* background-color: #ff5733; */
     float: left;
     margin-right: 5%;
+    border: #ff5733 2px solid;
+    box-sizing: border-box;
 }
 
 .projects .project:last-child {
