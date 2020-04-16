@@ -1,145 +1,147 @@
 body {
-    background-color: #222;
-    font-family: monospace;
-    font-size: 20px;
-    color: #eee;
+  background-color: #222;
+  font-family: monospace;
+  font-size: 20px;
+  color: #eee;
 }
 
-header, main, footer {
-    padding: 0 10%;
+header,
+main,
+footer {
+  padding: 0 10%;
 }
 
 header {
-    text-align: center;
-    background-color: #ffc300;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: #444;
-    margin-bottom: 50px;
+  text-align: center;
+  background-color: #ffc300;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #444;
+  margin-bottom: 50px;
 }
 
 footer {
-    color: #eee;
-    background-color: #900c3e;
+  color: #eee;
+  background-color: #900c3e;
 }
 
-h1, h2, h3 {
-    text-align: center;
+h1,
+h2,
+h3 {
+  text-align: center;
 }
 
 a {
-    text-decoration: none;
-    color: #c70039;
+  text-decoration: none;
+  color: #c70039;
 }
 
 .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .intro h1 {
-    margin: 0;
-    margin-bottom: 15px;
+  margin: 0;
+  margin-bottom: 15px;
 }
 
 .intro h1 span {
-    font-size: 0.7em;
+  font-size: 0.7em;
 }
 
 .intro p {
-    margin: 0;
+  margin: 0;
 }
 
 .technologies {
-    text-align: center;
-    font-size: 0;
-    margin-bottom: 50px;
+  text-align: center;
+  font-size: 0;
+  margin-bottom: 50px;
 }
 
 .technologies h2 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .technologies-block {
-    display: inline-block;
-    vertical-align: top;
-    min-width: 250px;
-    font-size: 20px;
+  display: inline-block;
+  vertical-align: top;
+  min-width: 250px;
+  font-size: 20px;
 }
 
 .technologies-block ul {
-    list-style: none;
+  list-style: none;
 }
 
 .technologies-block > ul {
-    display: inline-block;
-    text-align: left;
-    margin: 0;
-    padding: 0;
+  display: inline-block;
+  text-align: left;
+  margin: 0;
+  padding: 0;
 }
 
 .technologies-block > ul > li {
-    margin: 10px 0;
-    font-size: 16px;
+  margin: 10px 0;
+  font-size: 16px;
 }
 
 .technologies-block > ul > li > ul {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .portfolio {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .portfolio h2 {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .projects {
-    /* background-color: cyan; */
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .projects .project {
-    width: 30%;
-    height: 220px;
-    /* background-color: #ff5733; */
-    float: left;
-    margin-right: 5%;
-    border: #ff5733 2px solid;
-    box-sizing: border-box;
+  width: 30%;
+  height: 220px;
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 40px;
+  border: #ff5733 2px solid;
+  box-sizing: border-box;
 }
 
-.projects .project:last-child {
-    margin-right: 0;
+.projects .project:nth-child(4) {
+  margin-right: 0;
 }
 
 .history {
-    margin-bottom: 50px;
-    text-align: center;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .history .history-text {
-    display: inline-block;
-    text-align: left;
+  display: inline-block;
+  text-align: left;
 }
 
 .contacts {
-    margin-bottom: 50px;
-    text-align: center;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .contacts ul {
-    display: inline-block;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: left;
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
 }
 
 .copyright {
-    /* margin-bottom: 20px; */
-    padding: 5px 0;
-    text-align: center;
+  padding: 5px 0;
+  text-align: center;
 }
