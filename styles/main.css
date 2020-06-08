@@ -151,15 +151,15 @@ a {
 
 .contacts {
   margin-bottom: 50px;
-  text-align: center;
 }
 
-.contacts ul {
-  display: inline-block;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: left;
+.contacts table {
+  display: flex;
+  justify-content: center;
+}
+
+.contacts table td:first-child {
+  text-align: right;
 }
 
 .copyright {
